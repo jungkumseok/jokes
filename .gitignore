@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 dist/
+sandbox/
+.project
+.pydevproject
+MANIFEST
