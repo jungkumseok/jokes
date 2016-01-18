@@ -2,11 +2,11 @@
 
 #### Requirements
 
-* Python 2
+* Python 3
 
 #### Installation
 
-    pip install jokes
+    pip3 install jokes
     
 Then run the shell with
 
