@@ -3,4 +3,4 @@
 class Console():
 	
 	def push(self, command):
-		return command
+		return False, command
