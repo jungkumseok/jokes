@@ -18,15 +18,15 @@ exit :) exit the shell\
 def joke(*args):
 	return 'this is a funny joke version 0.00'
 
-class jokes():
-	def output(self, *args):
-		return args
-		
-	def input(self):
-		return input()
-	
-	def call(self, *args):
-		vals = []
-		for arg in args:
-			vals.append( arg() )
-		return vals
+# class jokes():
+# 	def output(self, *args):
+# 		return args
+# 		
+# 	def input(self):
+# 		return input()
+# 	
+# 	def call(self, *args):
+# 		vals = []
+# 		for arg in args:
+# 			vals.append( arg() )
+# 		return vals

@@ -1,9 +1,10 @@
 from distutils.core import setup
-VERSION = '0.1.4'
+VERSION = '0.1.5'
 setup(
   name = 'jokes',
   packages = ['jokes',
-              'jokes.modules'],
+              'jokes.modules',
+              'jokes.core',],
   package_data = {'jokes':['scripts/*']},
   scripts = ['jokes/scripts/jokes',],
   version = VERSION,
