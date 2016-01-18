@@ -1,2 +1,2 @@
 recursive-include jokes/modules *
-recursive-include jkspy/scripts *
+recursive-include jokes/scripts *
