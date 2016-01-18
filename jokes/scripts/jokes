@@ -1,7 +1,8 @@
+#!/usr/bin/python3
 # jokes shell v0.00
 # author: jks
 """ Language written in python """
-from modules import parser as ps
+from jokes.modules import parser as ps
 
 print('(:  jokes shell V0.00');
 keep_alive = True
@@ -12,4 +13,4 @@ while (keep_alive):
 		keep_alive = False
 	else:
 		print('(:  '+str( ps.parse( uin ) ) )
-print('(:  Hi! jk');
+print('(:  Bye');

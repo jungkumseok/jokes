@@ -1,5 +1,4 @@
 # jokes command methods
-# author: jks
 
 def help(*args):
 	""" Info about commands """

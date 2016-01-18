@@ -3,3 +3,7 @@ setup.cfg
 setup.py
 jokes/__init__.py
 jokes/main.py
+jokes/modules/__init__.py
+jokes/modules/cmd.py
+jokes/modules/parser.py
+jokes/scripts/test.py

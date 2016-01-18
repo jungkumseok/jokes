@@ -5,6 +5,7 @@ setup(
   packages = ['jokes',
               'jokes.modules'],
   package_data = {'jokes':['scripts/*']},
+  scripts = ['jokes/scripts/jokes',],
   version = VERSION,
   description = 'Experimental language written in python',
   author = 'Kumseok Jung',

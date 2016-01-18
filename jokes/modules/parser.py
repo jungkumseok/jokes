@@ -1,6 +1,5 @@
 # jokes parser
-# author: jks
-from modules import cmd
+from jokes.modules import cmd
 
 class stream():
 	__stream = []
