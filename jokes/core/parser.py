@@ -1,12 +1,5 @@
 # jokes parser
-from jokes.modules import cmd
-
-class stream():
-	__stream = []
-	
-	def push(self, uin):
-		self.__stream.append(uin)
-		return uin
+from jokes.core import cmd
 
 def read_words(*words):
 	for word in words:
@@ -25,3 +18,15 @@ def parse(uin):
 		return 'no such command'
 		
 	return None
+
+def digest(script_text):
+	print(script_text)
+	
+	lines = script_text.split('\n')
+	clean_lines = [ ' '.join(line.split()) for line in lines ]
+	print(clean_lines)
+	
+	for line in clean_lines:
+		print( parse(line) )
+	
+	return
