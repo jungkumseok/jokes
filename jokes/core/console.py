@@ -20,11 +20,18 @@ class Console():
 					if (uin == 'exit'):
 						self.stop()
 					else:
-						print( str( self.push(uin)[1] ) )
+# 						print( str( self.push(uin)[1] ) )
+						print( ps.readJoke(uin) )
 				print(':) Bye')
 			else:
 				script_file = open(script, 'r')
 				sin = script_file.read()
+				script_file.close()
+				
+# 				print("Tokenizing...")
+# 				for token in ps.tokenize(sin):
+# 					print(token)
+				
 				return ps.digest(sin)
 				
 	def stop(self):
